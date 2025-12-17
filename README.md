@@ -47,10 +47,10 @@ architectures for pixel-level road segmentation under extreme class imbalance.
 - Model evaluation (IoU, F1, Precision, Recall)
 
 ## Deliverables
-- 📄 Full technical report (PDF)
-- 📊 Final presentation
-- 📓 Training notebook
-- 🖼️ Qualitative prediction visualizations
+-  Full technical report (PDF)
+-  Final presentation
+-  Training notebook
+-  Qualitative prediction visualizations
 
 ## Author
 Sairam Jammu  

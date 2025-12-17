@@ -1,22 +1,20 @@
 ## Dataset Information
 
-This project uses high-resolution aerial imagery and corresponding
-road network ground truth masks for supervised semantic segmentation.
+This project uses the **Massachusetts Roads Dataset** sourced from Kaggle
+for supervised road network extraction from aerial imagery.
 
-### Data Source
-- Public aerial imagery datasets (e.g., SpaceNet, OpenStreetMap-derived labels)
-- Data is not included due to size and licensing restrictions
+### Dataset Source
+- Kaggle: Massachusetts Roads Dataset  
+- Author: balraj98  
+- Link: https://www.kaggle.com/datasets/balraj98/massachusetts-roads-dataset
 
-### Data Description
-- Input: RGB aerial images
-- Output: Binary road masks
-- Task: Road network extraction using deep learning
+### Dataset Description
+- High-resolution aerial images of Massachusetts
+- Corresponding binary road segmentation masks
+- Task: Pixel-wise road extraction (semantic segmentation)
 
-### Preprocessing
-- Image tiling
-- Normalization
-- Mask alignment
-- Train-validation-test split
+### Download Method
+The dataset was downloaded programmatically using the Kaggle API:
 
-This repository focuses on modeling, evaluation, and GIS interpretation
-rather than raw data distribution.
+```bash
+kaggle datasets download -d balraj98/massachusetts-roads-dataset

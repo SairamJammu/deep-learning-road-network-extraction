@@ -1,10 +1,12 @@
 # Deep Learning Road Network Extraction
 
-Semantic segmentation project for extracting road networks from high-resolution aerial imagery. The work compares multiple deep learning architectures and frames the problem through a GIS and remote-sensing lens.
+Portfolio summary for a semantic segmentation project focused on extracting road networks from high-resolution aerial imagery. The project compares multiple deep learning architectures and frames the work through a GIS and remote-sensing lens.
 
 ## Portfolio Summary
 
 Manual road digitization is slow and difficult to scale. This project evaluates whether deep learning segmentation models can identify road pixels from aerial imagery while handling thin road structures and severe class imbalance.
+
+This repository currently preserves the project overview and dataset notes. Large training artifacts, source imagery, model checkpoints, and generated outputs are intentionally not stored in GitHub because of size and reproducibility constraints.
 
 ## Problem Context
 
@@ -54,10 +56,20 @@ Python, PyTorch, semantic segmentation, aerial imagery, GIS concepts, model eval
 
 ## Repository Contents
 
-- Technical report
-- Final presentation
-- Training notebook
-- Qualitative prediction visualizations
+| Path | Purpose |
+|---|---|
+| `README.md` | Project summary, methods, results, and portfolio framing |
+| `data/README.md` | Dataset source, download method, and data-use notes |
+
+## Recommended Next Repository Additions
+
+To make the repository fully reproducible, the next version should add:
+
+- A cleaned training notebook or script
+- Environment setup instructions
+- Metric tables for all evaluated architectures
+- Qualitative prediction examples
+- Links to the final report or presentation if the files are too large for GitHub
 
 ## Portfolio Value
 
